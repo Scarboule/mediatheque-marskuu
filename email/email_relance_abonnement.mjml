@@ -7,8 +7,8 @@
     </mj-style>
     <mj-title>Rappel pour le nouveau service d'abonnement</mj-title>
     <mj-attributes>
-      <mj-all font-family="Helvetica, Arial, sans-serif"></mj-all>
-      <mj-text font-size="16px" color="#3E166D"></mj-text>
+      <mj-all font-family="Segoe UI"></mj-all>
+      <mj-text font-size="16px" color="#000"></mj-text>
     </mj-attributes>
   </mj-head>
   <mj-body>
@@ -16,8 +16,13 @@
       <mj-section>
         <mj-column>
         <mj-image src="https://mediatheque-marskuu.vercel.app/src/images/big-logo.png" alt="Médiathèque de Paris" width="200px"></mj-image>
-        <mj-divider border-color="#7A45BD" />
-        <mj-text font-size="24px" font-weight="bold" align="center">Ne manquez rien de nos ressources !</mj-text>
+        </mj-column>
+      </mj-section>
+         <mj-hero background-color="#ffffff" background-height="400px" background-url="https://www.mussidan.fr/wp-content/uploads/2020/07/interieur-mistral-1100x600-1.jpg">
+            <mj-text font-size="40px" font-weight="bold" color="#fff" align="center" padding="100px 0">Ne manquez rien de nos ressources</mj-text>
+   </mj-hero>
+      <mj-section>
+        <mj-column>
           <mj-text font-size="24px" font-weight="bold" color="#6C37AE">Cher Alexis,</mj-text>
           <mj-text mj-class="content-text" font-size="18px">Nous espérons que vous allez bien. Nous avons récemment annoncé notre nouveau service d'abonnement à la médiathèque de la ville de {{city}}, mais nous avons remarqué que vous n'aviez pas encore pris le temps de vous inscrire.</mj-text>
           <mj-text mj-class="content-text" font-size="18px">Nous comprenons que la vie peut être bien remplie et que parfois il est facile de manquer certains e-mails importants. C'est pourquoi nous voulions simplement vous rappeler que notre nouveau service d'abonnement est maintenant disponible et qu'il offre un accès inégalé à une grande variété de ressources.</mj-text>
