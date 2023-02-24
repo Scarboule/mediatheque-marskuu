@@ -1,4 +1,10 @@
 <mjml>
+  <mj-head>
+      <mj-attributes>
+      <mj-all font-family="Segoe UI"></mj-all>
+      <mj-text font-size="16px" color="#000"></mj-text>
+    </mj-attributes>
+  </mj-head>
   <mj-body background-color="white" width="600px">
     <mj-section>
       <mj-column>
@@ -6,12 +12,12 @@
       </mj-column>
       
     </mj-section>
-    <mj-section background-color="grey">
+    <mj-section background-color="#9152E2">
       <mj-column width="400px">
-        <mj-text align="center" font-size="20px">
+        <mj-text color="white" align="center" font-size="20px">
           Vous n'avez pas consulté nos recommandations depuis un moment 
         </mj-text>
-          <mj-text align="center" font-size="20px">
+          <mj-text color="white" align="center" font-size="20px">
             Aidez-nous à vous proposez le contentu dont vous rêver.
           </mj-text>
         
@@ -22,36 +28,36 @@
         <mj-text font-size="20px">
           Cher(e) [nom de l'utilisateur],
         </mj-text>
-        <mj-text font-size="20px">
-          Nous avons remarqué que vous n'avez pas consulté nos recommandations depuis plus de deux semaines. Nous espérons que vous trouvez toujours satisfaction dans notre médiathèque, mais nous sommes également conscients que nos recommandations ne sont peut-être pas toujours adaptées à vos goûts personnels.
+        <mj-text>
+          Nous avons remarqué que vous n'avez pas consulté nos recommandations depuis plus de deux semaines. Nous espérons que vous trouvez toujours satisfaction dans notre médiathèque, mais nous sommes également conscients que nos recommandations ne sont peut-être pas <b>toujours adaptées à vos goûts personnels</b>.
         </mj-text>
-        <mj-text font-size="20px">
-          Pour nous aider à mieux comprendre ce que vous recherchez, nous vous invitons à répondre à un court sondage qui nous permettra de mieux cerner vos préférences et ainsi vous proposer des recommandations plus pertinentes. 
+        <mj-text>
+          Pour nous aider à mieux comprendre ce que vous recherchez, nous vous invitons à répondre à un court sondage qui nous permettra de <b>mieux cerner vos préférences</b> et ainsi vous proposer des recommandations plus pertinentes. 
         </mj-text>
-        <mj-text font-size="20px">
+        <mj-text>
           Vous pouvez accéder au sondage en cliquant sur le bouton ci-dessous:
         </mj-text>
         <mj-button font-size="20px" background-color="#9152E2" href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks">Répondre au sondage</mj-button>
-        <mj-text font-size="20px">
-          Votre opinion est précieuse pour nous et nous espérons que vous prendrez quelques minutes pour nous aider à améliorer notre service.
+        <mj-text>
+          <b>Votre opinion est précieuse pour nous</b> et nous espérons que vous prendrez quelques minutes pour nous aider à améliorer notre service.
         </mj-text>
-        <mj-text font-size="20px">
-          Cordialement,
+        <mj-text align="center">
+          Cordialement
         </mj-text>
-        <mj-text font-size="20px">
+        <mj-text align="center">
           Oscar de Médiathèque
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-  <mj-column>
-    <mj-social font-size="25px" mode="horizontal" align="center">
-      <mj-social-element name="facebook" href="https://www.facebook.com/"></mj-social-element>
-      <mj-social-element name="twitter" href="https://twitter.com/"></mj-social-element>
-      <mj-social-element name="instagram" href="https://www.instagram.com/"></mj-social-element>
-      <mj-social-element name="linkedin" href="https://www.linkedin.com/company/"></mj-social-element>
-    </mj-social>
-  </mj-column>
-</mj-section>
+    <mj-section background-color="#9152E2" >
+        <mj-column  width="300px"  padding-top="10px" >
+        <mj-text  align="center">
+          <img src="https://www.facebook.com/images/fb_icon_325x325.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/2048px-YouTube_social_white_squircle.svg.png" width="25px" style="padding:5px;" />
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
