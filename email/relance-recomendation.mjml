@@ -1,0 +1,57 @@
+<mjml>
+  <mj-body background-color="white" width="600px">
+    <mj-section>
+      <mj-column>
+        <mj-image width="100px" src="../src/images/big-logo.png"></mj-image>
+      </mj-column>
+      
+    </mj-section>
+    <mj-section background-color="grey">
+      <mj-column width="400px">
+        <mj-text>
+          Vous n'avez pas consulté nos recommandations depuis un moment 
+        </mj-text>
+          <mj-text>
+            Aidez-nous à vous proposez le contentu dont vous rêver.
+          </mj-text>
+        
+      </mj-column>
+    </mj-section>
+    <mj-section  background-color="#fafafa">
+      <mj-column width="400px">
+        <mj-text>
+          Cher(e) [nom de l'utilisateur],
+        </mj-text>
+        <mj-text>
+          Nous avons remarqué que vous n'avez pas consulté nos recommandations depuis plus de deux semaines. Nous espérons que vous trouvez toujours satisfaction dans notre médiathèque, mais nous sommes également conscients que nos recommandations ne sont peut-être pas toujours adaptées à vos goûts personnels.
+        </mj-text>
+        <mj-text>
+          Pour nous aider à mieux comprendre ce que vous recherchez, nous vous invitons à répondre à un court sondage qui nous permettra de mieux cerner vos préférences et ainsi vous proposer des recommandations plus pertinentes. 
+        </mj-text>
+        <mj-text>
+          Vous pouvez accéder au sondage en cliquant sur le bouton ci-dessous:
+        </mj-text>
+        <mj-button background-color="#9152E2" href="#">Répondre au sondage</mj-button>
+        <mj-text>
+          Votre opinion est précieuse pour nous et nous espérons que vous prendrez quelques minutes pour nous aider à améliorer notre service.
+        </mj-text>
+        <mj-text>
+          Cordialement,
+        </mj-text>
+        <mj-text>
+          Oscar de Médiathèque
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+  <mj-column>
+    <mj-social font-size="15px" mode="horizontal" align="center">
+      <mj-social-element name="facebook" href="https://www.facebook.com/"></mj-social-element>
+      <mj-social-element name="twitter" href="https://twitter.com/"></mj-social-element>
+      <mj-social-element name="instagram" href="https://www.instagram.com/"></mj-social-element>
+      <mj-social-element name="linkedin" href="https://www.linkedin.com/company/"></mj-social-element>
+    </mj-social>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>
