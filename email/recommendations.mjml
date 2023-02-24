@@ -5,9 +5,9 @@
         <mj-image width="250px" src="../src/images/big-logo.png"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section background-color="grey">
+    <mj-section background-color="#9152E2">
       <mj-column width="400px">
-        <mj-text  align="center" font-size="20px">
+        <mj-text color="white" align="center" font-size="20px">
           Préparez-vous à passer un week-end incroyable grâce à notre sélection hebdomadaire d'ebooks recommander pour vous!
           </mj-text>
       </mj-column>
@@ -18,11 +18,11 @@
           
 Bonjour [nom de l'utilisateur],
         </mj-text>
-        <mj-text font-size="20px">
+        <mj-text>
 
 Nous espérons que vous passez une excellente semaine! Nous sommes ravis de vous présenter notre sélection hebdomadaire de recommandations pour vous.
         </mj-text>
-        <mj-text font-size="20px">
+        <mj-text>
 
 Voici les recommandations de cette semaine:
 
@@ -56,26 +56,26 @@ Voici les recommandations de cette semaine:
     <mj-section background-color="#fafafa">
     <mj-column width="400px">
         <mj-button background-color="#9152E2" font-size="20px" href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks">Voir plus</mj-button>
-        <mj-text font-size="20px">
+        <mj-text>
 
 Nous espérons que vous trouverez ces recommandations aussi passionnantes que nous. N'hésitez pas à nous faire part de vos commentaires ou de vos suggestions.
           </mj-text>
-        <mj-text font-size="20px">
+        <mj-text>
 
 Merci de nous avoir fait confiance pour vous aider à trouver votre prochaine grande lecture, écoute ou visionnage.
           </mj-text>
-        <mj-text font-size="20px">
+        <mj-text>
 
 Cordialement,
           </mj-text>
-        <mj-text font-size="20px">
+        <mj-text>
 
 Oscar de Médiathèque
         </mj-text>
        
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#9152E2">
         <mj-column>
             <mj-social font-size="25px" mode="horizontal" align="center">
                 <mj-social-element name="facebook" href="https://www.facebook.com/"></mj-social-element>
