@@ -1,0 +1,66 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Segoe UI"></mj-all>
+      <mj-text font-size="20px" color="#1C1C1C" line-height="32px" padding-top="20px"></mj-text>
+    </mj-attributes>
+    <mj-style>
+    .logo{
+      margin: 20px auto;
+    }
+      .button {
+        background-color: #6C37AE;
+        border-radius: 30px;
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px 100px;
+      }
+      .button:hover {
+        background-color: #9152E2;
+      }
+      .image{
+        filter: grayscale(50%);
+      }
+      .image-text {
+        position: absolute;
+        top:32%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+    </mj-style>
+    <mj-title>Il ne reste que 5 jours pour bénéficier de notre offre de parrainage !</mj-title>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-section>
+      <mj-column>
+    <mj-image src="https://mediatheque-marskuu.vercel.app/src/images/big-logo.png" alt="Logo de la médiathèque" css-class="logo" align="center"/>
+    <mj-hero mode="fixed-height" height="300px" background-url="https://www.trbimg.com/img-5bff2842/turbine/la-1543448638-tgcvmvoeoc-snap-image/1200">
+      <mj-text align="center" color="#fff" css-class="image-text" font-size="30px">Il ne reste que 5 jours pour bénéficier de notre offre de parrainage !</mj-text>
+      </mj-hero>
+        <mj-text>
+          Cher(e) [nom du client],
+        </mj-text>
+        <mj-text>
+          J'espère que vous allez bien et que vous avez pu profiter de notre service d'E-books en ligne. Je vous envoie ce petit message pour vous rappeler que notre offre de parrainage prendra fin dans 5 jours, et nous avons remarqué que vous n'avez pas encore fini votre parrainage.
+        </mj-text>
+        <mj-text >
+          Nous voulions simplement vous rappeler que si vous souhaitez obtenir votre E-book gratuit, vous devez compléter votre parrainage avant la fin de l'offre. Nous sommes certains que vous avez des amis qui adoreront découvrir notre service et tout ce qu'il a à offrir, alors n'hésitez pas à partager avec eux !
+        </mj-text>
+        <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=email-parrainage&utm_medium=email&utm_campaign=parrainage-rappel" background-color="none" font-weight="bold" font-size="20px" margin="auto" css-class="button">
+          Parrainez un ami maintenant
+        </mj-button>
+        <mj-text>
+          Nous serions ravis de vous compter parmi nos clients les plus fidèles, et nous espérons que vous profiterez de cette offre avant qu'elle ne prenne fin.
+        </mj-text>
+        <mj-text>
+         Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter à tout moment. Nous sommes là pour vous aider et nous apprécions votre soutien.
+        </mj-text>
+        <mj-text>
+          Culturellement,
+        </mj-text>
+        <mj-text font-style="italic">
+          La Médiathèque
+        </mj-text>

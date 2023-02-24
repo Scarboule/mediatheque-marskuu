@@ -1,0 +1,66 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Segoe UI"></mj-all>
+      <mj-text font-size="20px" color="#1C1C1C" line-height="32px" padding-top="20px"></mj-text>
+    </mj-attributes>
+    <mj-style>
+    .logo{
+      margin: 20px auto;
+    }
+      .button {
+        background-color: #6C37AE;
+        border-radius: 30px;
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px 100px;
+      }
+      .button:hover {
+        background-color: #9152E2;
+      }
+      .image{
+        filter: grayscale(50%);
+      }
+      .image-text {
+        position: absolute;
+        top:32%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+    </mj-style>
+    <mj-title>Parrainez un ami et recevez un E-book gratuit !</mj-title>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-section>
+      <mj-column>
+    <mj-image src="https://mediatheque-marskuu.vercel.app/src/images/big-logo.png" alt="Logo de la médiathèque" css-class="logo" align="center"/>
+    <mj-hero mode="fixed-height" height="300px" background-url="https://www.trbimg.com/img-5bff2842/turbine/la-1543448638-tgcvmvoeoc-snap-image/1200">
+      <mj-text align="center" color="#fff" css-class="image-text" font-size="30px"> Parrainez un ami et recevez un E-book gratuit !</mj-text>
+      </mj-hero>
+        <mj-text>
+          Cher(e) [nom du client],
+        </mj-text>
+        <mj-text>
+          Nous sommes ravis de vous compter parmi nos nouveaux membres pour notre service d'E-books en ligne. Nous espérons que vous apprécierez la variété de titres que nous avons à offrir et que vous profiterez de toutes les fonctionnalités que nous proposons.
+        </mj-text>
+        <mj-text >
+          Nous souhaitons également vous remercier de votre confiance et de votre fidélité. C'est pourquoi nous avons décidé de vous offrir la possibilité de parrainer un ami et de bénéficier d'un E-book gratuit en échange !
+        </mj-text>
+        <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=email-parrainage&utm_medium=email&utm_campaign=parrainage" background-color="none" font-weight="bold" font-size="20px" margin="auto" css-class="button">
+          Parrainez un ami maintenant
+        </mj-button>
+        <mj-text>
+          Nous sommes convaincus que vos amis seront ravis de découvrir notre service et de pouvoir accéder à des milliers d'E-books passionnants en un seul clic. N'oubliez pas que plus vous parrainez d'amis, plus vous aurez de chances de recevoir des E-books gratuits !
+        </mj-text>
+        <mj-text>
+          Nous vous remercions encore une fois de votre confiance et de votre fidélité, et nous espérons vous voir très bientôt sur notre plateforme.
+        </mj-text>
+        <mj-text>
+          Culturellement,
+        </mj-text>
+        <mj-text font-style="italic">
+          La Médiathèque
+        </mj-text>
