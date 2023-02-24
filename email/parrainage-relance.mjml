@@ -27,19 +27,19 @@
               <mj-text font-size="40px" font-weight="bold" color="#ffffff" align="center" padding="100px 0" padding-top="100px">Il ne reste que 5 jours pour bénéficier de notre offre de parrainage !</mj-text>
         </mj-hero>
         <mj-text color="#6C37AE" font-weight="bold" font-size="25px">
-          Cher Alexis,
+          Cher {{ name }},
         </mj-text>
         <mj-text>
-          J'espère que vous allez bien et que vous avez pu profiter de notre service d'E-books en ligne. Je vous envoie ce petit message pour vous rappeler que notre offre de parrainage prendra fin dans 5 jours, et nous avons remarqué que vous n'avez pas encore fini votre parrainage.
+          J'espère que vous allez bien et que vous avez pu profiter de notre service d'E-books en ligne. Je vous envoie ce petit message pour vous rappeler que notre offre de parrainage <b>prendra fin dans 5 jours</b>, et nous avons remarqué que vous n'avez pas encore fini votre parrainage.
         </mj-text>
         <mj-text >
-          Nous voulions simplement vous rappeler que si vous souhaitez obtenir votre E-book gratuit, vous devez compléter votre parrainage avant la fin de l'offre. Nous sommes certains que vous avez des amis qui adoreront découvrir notre service et tout ce qu'il a à offrir, alors n'hésitez pas à partager avec eux !
+          Nous voulions simplement vous rappeler que si vous souhaitez <b>obtenir votre E-book gratuit</b>, vous devez compléter votre parrainage avant la fin de l'offre. Nous sommes certains que vous avez des amis qui adoreront découvrir notre service et tout ce qu'il a à offrir, alors n'hésitez pas à partager avec eux !
         </mj-text>
         <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=email-parrainage&utm_medium=email&utm_campaign=parrainage-rappel" background-color="none" font-weight="bold" font-size="20px" margin="auto" css-class="button">
           Parrainez un ami maintenant
         </mj-button>
         <mj-text>
-          Nous serions ravis de vous compter parmi nos clients les plus fidèles, et nous espérons que vous profiterez de cette offre avant qu'elle ne prenne fin.
+          Nous serions ravis de vous compter parmi nos clients les plus fidèles, et nous espérons que vous profiterez de cette offre <b>avant qu'elle ne prenne fin</b>.
         </mj-text>
         <mj-text>
          Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter à tout moment. Nous sommes là pour vous aider et nous apprécions votre soutien.

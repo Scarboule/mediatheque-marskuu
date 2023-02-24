@@ -27,16 +27,16 @@
               <mj-text font-size="40px" font-weight="bold" color="#ffffff" align="center" padding="100px 0" padding-top="100px">Merci pour votre parrainage !</mj-text>
         </mj-hero>
         <mj-text color="#6C37AE" font-weight="bold" font-size="25px">
-          Cher Alexis,
+          Cher {{ name }},
         </mj-text>
         <mj-text>
-          Nous sommes ravis de vous annoncer que votre parrainage a été un succès ! Nous avons bien reçu la confirmation de votre ami et vous avez gagné un E-book gratuit en récompense. Félicitations !
+          Nous sommes ravis de vous annoncer que votre parrainage a été un succès ! Nous avons bien reçu la confirmation de votre ami et <b>vous avez gagné un E-book gratuit en récompense</b>. Félicitations !
         </mj-text>
         <mj-text >
           Nous tenons à vous remercier pour votre confiance et votre fidélité. C'est grâce à des clients comme vous que nous pouvons continuer à offrir un service de qualité et à développer notre enseigne.
         </mj-text>
         <mj-text>
-          Pour choisir votre E-book gratuit, nous vous invitons à vous rendre sur notre site web et à consulter notre sélection. Vous pourrez y trouver des romans, des essais, des biographies et bien plus encore. Nous espérons que vous trouverez un livre qui vous plaira !
+          Pour choisir votre E-book gratuit, nous vous invitons à <b>vous rendre sur notre site web</b> et à consulter notre sélection. Vous pourrez y trouver des romans, des essais, des biographies et bien plus encore. Nous espérons que vous trouverez un livre qui vous plaira !
         </mj-text>
         <mj-button href="https://mediatheque-marskuu.vercel.app?utm_source=email-parrainage&utm_medium=email&utm_campaign=parrainage-recompense" background-color="none" font-weight="bold" font-size="20px" margin="auto" css-class="button">
           Choisir mon livre
