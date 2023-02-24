@@ -4,17 +4,23 @@
    
   </mj-head>
   <mj-body background-color="white">
+  <mj-section>
+    <mj-column>
+        <mj-image src="https://mediatheque-marskuu.vercel.app/src/images/big-logo.png" alt="Médiathèque de Paris" width="200px" align="center"></mj-image>
+    </mj-column>
+    </mj-section>
+   <mj-hero background-color="#ffffff" background-height="400px" background-position="center center" background-url="https://images.unsplash.com/photo-1610731826702-6ded935d39a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2369&q=80">
+            <mj-text font-size="40px" font-weight="bold" color="#ffffff" align="center" padding="100px 0">Confirmation d'inscription au service d'Ebooks</mj-text>
+   </mj-hero>
     <mj-section>
       <mj-column>
-        <mj-image src="https://mediatheque-marskuu.vercel.app/src/images/big-logo.png" alt="Médiathèque de Paris" width="200px"></mj-image>
-        <mj-divider border-color="#7A45BD" />
         <mj-text font-size="24px" font-weight="bold" align="center">Confirmation d'inscription au service d'Ebooks</mj-text>
-        <mj-text font-size="16px" align="center">Bonjour {name},</mj-text>
+        <mj-text font-size="16px" align="center">Bonjour {{ name }},</mj-text>
         <mj-text font-size="16px" >Nous vous confirmons votre inscription au service d'Ebooks de la médiathèque.</mj-text>
         <mj-text font-size="16px">Vous pouvez dès maintenant accéder à notre collection d'Ebooks en vous rendant sur notre site internet en cliquant sur le bouton ci-dessous :</mj-text>
         <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks" align="center" background-color="#7A45BD">Accéder aux Ebooks</mj-button>
         <mj-text font-size="16px" align="center">Nous vous remercions de votre confiance.</mj-text>
-        <mj-text font-size="16px" align="center">L'équipe de la médiathèque de Paris</mj-text>
+        <mj-text font-size="16px" align="center">L'équipe de la médiathèque</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
