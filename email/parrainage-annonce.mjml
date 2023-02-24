@@ -28,20 +28,20 @@
               <mj-text font-size="40px" font-weight="bold" color="#ffffff" align="center" padding="100px 0" padding-top="100px">Parrainez un ami et recevez un E-book gratuit !</mj-text>
         </mj-hero>
         <mj-text color="#6C37AE" font-weight="bold" font-size="25px">
-          Cher Alexis,
+          Cher {{ name }},
         </mj-text>
         <mj-text padding-top="5px">
-          Nous sommes ravis de vous compter parmi nos nouveaux membres pour notre service d'E-books en ligne. Nous espérons que vous apprécierez la variété de titres que nous avons à offrir et que vous profiterez de toutes les fonctionnalités que nous proposons.
+          Nous sommes ravis de vous compter parmi nos nouveaux membres pour notre service d'E-books en ligne. Nous espérons que vous apprécierez <b>la variété de titres que nous avons à offrir</b> et que vous profiterez de toutes les fonctionnalités que nous proposons.
         </mj-text>
         <mj-text >
-          Nous souhaitons également vous remercier de votre confiance et de votre fidélité. C'est pourquoi nous avons décidé de vous offrir la possibilité de parrainer un ami et de bénéficier d'un E-book gratuit en échange !
+          Nous souhaitons également vous remercier de votre confiance et de votre fidélité. C'est pourquoi nous avons décidé de vous offrir la possibilité de parrainer un ami et de <b>bénéficier d'un E-book gratuit</b> en échange !
         </mj-text>
         <mj-text font-weight="bold">
           Votre lien de parrainage:  
         </mj-text>
         <mj-text font-weight="bold" font-size="25px" color="#fff"  css-class="button">skuWAg21!</mj-text>
         <mj-text>
-          Nous sommes convaincus que vos amis seront ravis de découvrir notre service et de pouvoir accéder à des milliers d'E-books passionnants en un seul clic. N'oubliez pas que plus vous parrainez d'amis, plus vous aurez de chances de recevoir des E-books gratuits !
+          Nous sommes convaincus que vos amis seront ravis de découvrir notre service et de pouvoir accéder à des milliers d'E-books passionnants en un seul clic. N'oubliez pas que <b>plus vous parrainez d'amis, plus vous aurez d'E-books gratuits !</b>
         </mj-text>
         <mj-text>
           Nous vous remercions encore une fois de votre confiance et de votre fidélité, et nous espérons vous voir très bientôt sur notre plateforme.
