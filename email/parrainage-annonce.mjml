@@ -49,7 +49,7 @@
         <mj-text >
           Nous souhaitons également vous remercier de votre confiance et de votre fidélité. C'est pourquoi nous avons décidé de vous offrir la possibilité de parrainer un ami et de bénéficier d'un E-book gratuit en échange !
         </mj-text>
-        <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=email-parrainage&utm_medium=email&utm_campaign=parrainage" background-color="none" font-weight="bold" font-size="20px" margin="auto" css-class="button">
+        <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=email-parrainage&utm_medium=email&utm_campaign=parrainage-annonce" background-color="none" font-weight="bold" font-size="20px" margin="auto" css-class="button">
           Parrainez un ami maintenant
         </mj-button>
         <mj-text>
