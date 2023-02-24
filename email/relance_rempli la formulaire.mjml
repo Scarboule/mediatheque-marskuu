@@ -1,0 +1,49 @@
+<mjml>
+    <mj-body background-color="white">
+        <mj-section>
+            <mj-column>
+                <mj-image
+                        src="https://mediatheque-marskuu.vercel.app/src/images/big-logo.png" alt="Logo"  width="250px" padding="10px 25px" />
+            </mj-column>
+        </mj-section>
+        <mj-section >
+            <mj-column>
+                <mj-text font-size="20px" font-weight="bold" color="#333333" align="center" padding="10px 25px">
+                    Rappel - Veuillez remplissait le formulaire
+                 </mj-text>
+                <mj-divider border-color="#9152E2" />
+                </mj-text>
+                    <mj-text line-height="20px" font-size="16px" color="#333333" padding="10px 25px">
+                     Bonjour {prénom} <br /><br />
+                     Nous espérons que vous allez bien. Nous avons remarqué que vous avez visité notre site d'Ebook récemment, mais que vous n'avez pas rempli le formulaire d'inscription pour accéder à nos services. Nous souhaiterions vous rappeler que nous proposons une grande sélection de livres électroniques de qualité supérieure à des prix compétitifs, ainsi qu'un service clientèle exceptionnel.<br /><br />
+                     Nous comprenons que vous pourriez être occupé(e) ou avoir des questions avant de vous inscrire. Si tel est le cas, n'hésitez pas à nous contacter à tout moment. Nous sommes là pour vous aider et répondre à toutes vos questions.<br /><br />
+                     Si vous avez simplement oublié de remplir le formulaire, nous vous encourageons vivement à le faire dès maintenant en cliquant sur le button ci-dessous. Cela ne prend que quelques minutes, et vous pourrez commencer à profiter de notre sélection d'Ebooks immédiatement.<br /><br />
+                    
+                </mj-text>
+                <mj-button
+                   href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks" background-color="#9152E2" color="white" href="/" font-size="20px" padding="10px 25px" align="center"
+                >
+                   Formulaire d'inscription
+                </mj-button>
+                <mj-text  line-height="20px" font-size="16px" color="#333333" padding="10px 25px">
+                   Nous vous remercions pour votre intérêt envers notre entreprise et espérons avoir l'opportunité de vous servir bientôt. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter.<br /><br />
+                    Cordialement,<br />
+                    L'équipe médiathèque
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    <mj-section background-color="#9152E2" >
+      <mj-column  width="300px"  padding-top="10px" >
+        <mj-text  align="center">
+          <img src="https://www.facebook.com/images/fb_icon_325x325.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/2048px-YouTube_social_white_squircle.svg.png" width="25px" style="padding:5px;" />
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    </mj-body>
+</mjml>
