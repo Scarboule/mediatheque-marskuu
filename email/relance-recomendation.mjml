@@ -31,7 +31,7 @@
         <mj-text>
           Vous pouvez accéder au sondage en cliquant sur le bouton ci-dessous:
         </mj-text>
-        <mj-button background-color="#9152E2" href="#">Répondre au sondage</mj-button>
+        <mj-button background-color="#9152E2" href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks">Répondre au sondage</mj-button>
         <mj-text>
           Votre opinion est précieuse pour nous et nous espérons que vous prendrez quelques minutes pour nous aider à améliorer notre service.
         </mj-text>
