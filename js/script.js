@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     successMessage.classList.remove('invisible');
 })
-console.log(arrow.style.rotate)
+
 affiliateLabel.addEventListener('click', (e) => {
     if (affiliateInput.style.opacity) {
         affiliateInput.style.opacity = null;
