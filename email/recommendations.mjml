@@ -58,7 +58,7 @@ Voici les recommandations de cette semaine:
         </mj-section>
     <mj-section background-color="#fafafa">
     <mj-column width="400px">
-        <mj-button background-color="#9152E2" href="#">Voir plus</mj-button>
+        <mj-button background-color="#9152E2" href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks">Voir plus</mj-button>
         <mj-text>
 
 Nous espérons que vous trouverez ces recommandations aussi passionnantes que nous. N'hésitez pas à nous faire part de vos commentaires ou de vos suggestions.
