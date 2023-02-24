@@ -24,7 +24,7 @@
       <mj-section>
         <mj-column>
           <mj-text font-size="24px" font-weight="bold" color="#6C37AE">Cher Alexis,</mj-text>
-          <mj-text mj-class="content-text" font-size="18px">Nous espérons que vous allez bien. Nous avons récemment annoncé notre nouveau service d'abonnement à la médiathèque de la ville de {{city}}, mais nous avons remarqué que vous n'aviez pas encore pris le temps de vous inscrire.</mj-text>
+          <mj-text mj-class="content-text" font-size="18px">Nous espérons que vous allez bien. Nous avons récemment annoncé notre nouveau service d'abonnement à la médiathèque, mais nous avons remarqué que vous n'aviez pas encore pris le temps de vous inscrire.</mj-text>
           <mj-text mj-class="content-text" font-size="18px">Nous comprenons que la vie peut être bien remplie et que parfois il est facile de manquer certains e-mails importants. C'est pourquoi nous voulions simplement vous rappeler que notre nouveau service d'abonnement est maintenant disponible et qu'il offre un accès inégalé à une grande variété de ressources.</mj-text>
           <mj-text mj-class="content-text" font-size="18px">Si vous avez des questions ou si vous souhaitez vous abonner dès maintenant, n'hésitez pas à nous contacter. Nous serions ravis de vous aider à profiter de tous les avantages que notre médiathèque a à offrir.</mj-text>
         </mj-column>
