@@ -2,22 +2,19 @@
   <mj-body background-color="white" width="600px">
     <mj-section>
       <mj-column>
-        <mj-image width="100px" src="../src/images/big-logo.png"></mj-image>
+        <mj-image width="250px" src="../src/images/big-logo.png"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section background-color="grey">
+    <mj-section background-color="#9152E2">
       <mj-column width="400px">
-        <mj-text>
-          Cher(e) [nom de l'utilisateur],
-        </mj-text>
-        <mj-text>
-          préparez-vous à passer un week-end incroyable grâce à notre sélection hebdomadaire d'ebooks recommander pour vous!
+        <mj-text color="white" align="center" font-size="20px">
+          Préparez-vous à passer un week-end incroyable grâce à notre sélection hebdomadaire d'ebooks recommander pour vous!
           </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fafafa">
       <mj-column width="400px">
-        <mj-text>
+        <mj-text font-size="20px">
           
 Bonjour [nom de l'utilisateur],
         </mj-text>
@@ -36,21 +33,21 @@ Voici les recommandations de cette semaine:
           <mj-column>
             <mj-image  src="../src/images/Marche-ou-creve.jpg">
             </mj-image>
-            <mj-text>
+            <mj-text align="center">
                 Marche ou crève
             </mj-text>
           </mj-column>
           <mj-column >
             <mj-image   src="../src/images/angor.jpg">
             </mj-image>
-            <mj-text>
+            <mj-text align="center">
                 Angor
             </mj-text>
           </mj-column>
           <mj-column>
             <mj-image src="../src/images/soumission.jpg">
             </mj-image>
-            <mj-text>
+            <mj-text align="center">
               Soumission
             </mj-text>
           </mj-column>
@@ -58,7 +55,7 @@ Voici les recommandations de cette semaine:
         </mj-section>
     <mj-section background-color="#fafafa">
     <mj-column width="400px">
-        <mj-button background-color="#9152E2" href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks">Voir plus</mj-button>
+        <mj-button background-color="#9152E2" font-size="20px" href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks">Voir plus</mj-button>
         <mj-text>
 
 Nous espérons que vous trouverez ces recommandations aussi passionnantes que nous. N'hésitez pas à nous faire part de vos commentaires ou de vos suggestions.
@@ -78,15 +75,15 @@ Oscar de Médiathèque
        
       </mj-column>
     </mj-section>
-    <mj-section>
-        <mj-column>
-            <mj-social font-size="15px" mode="horizontal" align="center">
-                <mj-social-element name="facebook" href="https://www.facebook.com/"></mj-social-element>
-                <mj-social-element name="twitter" href="https://twitter.com/"></mj-social-element>
-                <mj-social-element name="instagram" href="https://www.instagram.com/"></mj-social-element>
-                <mj-social-element name="linkedin" href="https://www.linkedin.com/company/"></mj-social-element>
-            </mj-social>
-        </mj-column>
+    <mj-section background-color="#9152E2" >
+        <mj-column  width="300px"  padding-top="10px" >
+        <mj-text  align="center">
+          <img src="https://www.facebook.com/images/fb_icon_325x325.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/2048px-YouTube_social_white_squircle.svg.png" width="25px" style="padding:5px;" />
+        </mj-text>
+      </mj-column>
     </mj-section>
   </mj-body >
 </mjml>
