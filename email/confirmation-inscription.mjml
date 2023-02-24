@@ -14,13 +14,23 @@
    </mj-hero>
     <mj-section>
       <mj-column>
-        <mj-text font-size="24px" font-weight="bold" align="center">Confirmation d'inscription au service d'Ebooks</mj-text>
-        <mj-text font-size="16px" align="center">Bonjour {{ name }},</mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="#9152E2">Confirmation d'inscription au service d'Ebooks</mj-text>
+        <mj-text font-size="16px" >Bonjour {{ name }},</mj-text>
         <mj-text font-size="16px" >Nous vous confirmons votre inscription au service d'Ebooks de la médiathèque.</mj-text>
         <mj-text font-size="16px">Vous pouvez dès maintenant accéder à notre collection d'Ebooks en vous rendant sur notre site internet en cliquant sur le bouton ci-dessous :</mj-text>
         <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks" align="center" background-color="#7A45BD">Accéder aux Ebooks</mj-button>
         <mj-text font-size="16px" align="center">Nous vous remercions de votre confiance.</mj-text>
         <mj-text font-size="16px" align="center">L'équipe de la médiathèque</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#9152E2" >
+        <mj-column  width="300px"  padding-top="10px" >
+        <mj-text  align="center">
+          <img src="https://www.facebook.com/images/fb_icon_325x325.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" width="25px" style="padding:5px;" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/2048px-YouTube_social_white_squircle.svg.png" width="25px" style="padding:5px;" />
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
