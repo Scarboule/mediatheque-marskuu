@@ -34,24 +34,24 @@ Voici les recommandations de cette semaine:
     </mj-section>
         <mj-section background-color="#fafafa">
           <mj-column>
-            <mj-image  src="https://static.fnac-static.com/multimedia/Images/FR/NR/a3/45/18/1590691/1507-1/tsp20210119070600/Marche-ou-creve.jpg">
+            <mj-image  src="../src/images/Marche-ou-creve.jpg">
             </mj-image>
             <mj-text>
                 Marche ou crève
             </mj-text>
           </mj-column>
           <mj-column >
-            <mj-image   src="https://m.media-amazon.com/images/I/71dbD9vko2L.jpg">
+            <mj-image   src="../src/images/angor.jpg">
             </mj-image>
             <mj-text>
                 Angor
             </mj-text>
           </mj-column>
           <mj-column>
-            <mj-image src="https://m.media-amazon.com/images/I/51nQcXLGQUL.jpg">
+            <mj-image src="../src/images/soumission.jpg">
             </mj-image>
             <mj-text>
-                Ecrire pour les nuls
+              Soumission
             </mj-text>
           </mj-column>
           
