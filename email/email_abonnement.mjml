@@ -25,7 +25,7 @@
         <mj-column>
           <mj-text font-size="24px" font-weight="bold" color="#6C37AE">Cher(e) {{name}},</mj-text>
           <mj-text mj-class="content-text" font-size="18px">Nous sommes ravis de vous annoncer le lancement de notre nouveau service d'abonnement à la médiathèque.</mj-text>
-          <mj-text mj-class="content-text" font-size="18px">Avec cet abonnement, vous pourrez emprunter plus de livres, de CD, de DVD et d'autres documents, ainsi que bénéficier d'un accès en ligne à des milliers de ressources numériques.</mj-text>
+          <mj-text mj-class="content-text" font-size="18px">Avec cet abonnement, vous pourrez emprunter <b>plus de livres, de CD, de DVD</b> et d'autres documents, ainsi que bénéficier d'un accès en ligne à des milliers de ressources numériques.</mj-text>
           <mj-text mj-class="content-text" font-size="18px">Nous espérons que vous apprécierez ce nouveau service et que vous continuerez à soutenir la médiathèque.</mj-text>
           <mj-text mj-class="content-text" font-size="18px">N'hésitez pas à nous contacter pour plus d'informations ou pour vous abonner dès maintenant !</mj-text>
         </mj-column>

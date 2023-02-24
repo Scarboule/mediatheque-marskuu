@@ -1,4 +1,10 @@
 <mjml>
+  <mj-head>
+      <mj-attributes>
+      <mj-all font-family="Segoe UI"></mj-all>
+      <mj-text font-size="16px" color="#000"></mj-text>
+    </mj-attributes>
+  </mj-head>
   <mj-body background-color="white" width="600px">
     <mj-section>
       <mj-column>
@@ -23,22 +29,22 @@
           Cher(e) [nom de l'utilisateur],
         </mj-text>
         <mj-text>
-          Nous avons remarqué que vous n'avez pas consulté nos recommandations depuis plus de deux semaines. Nous espérons que vous trouvez toujours satisfaction dans notre médiathèque, mais nous sommes également conscients que nos recommandations ne sont peut-être pas toujours adaptées à vos goûts personnels.
+          Nous avons remarqué que vous n'avez pas consulté nos recommandations depuis plus de deux semaines. Nous espérons que vous trouvez toujours satisfaction dans notre médiathèque, mais nous sommes également conscients que nos recommandations ne sont peut-être pas <b>toujours adaptées à vos goûts personnels</b>.
         </mj-text>
         <mj-text>
-          Pour nous aider à mieux comprendre ce que vous recherchez, nous vous invitons à répondre à un court sondage qui nous permettra de mieux cerner vos préférences et ainsi vous proposer des recommandations plus pertinentes. 
+          Pour nous aider à mieux comprendre ce que vous recherchez, nous vous invitons à répondre à un court sondage qui nous permettra de <b>mieux cerner vos préférences</b> et ainsi vous proposer des recommandations plus pertinentes. 
         </mj-text>
         <mj-text>
           Vous pouvez accéder au sondage en cliquant sur le bouton ci-dessous:
         </mj-text>
         <mj-button font-size="20px" background-color="#9152E2" href="https://mediatheque-marskuu.vercel.app/?utm_source=email&utm_medium=confirmation_inscription&utm_campaign=ebooks">Répondre au sondage</mj-button>
         <mj-text>
-          Votre opinion est précieuse pour nous et nous espérons que vous prendrez quelques minutes pour nous aider à améliorer notre service.
+          <b>Votre opinion est précieuse pour nous</b> et nous espérons que vous prendrez quelques minutes pour nous aider à améliorer notre service.
         </mj-text>
-        <mj-text>
-          Cordialement,
+        <mj-text align="center">
+          Cordialement
         </mj-text>
-        <mj-text>
+        <mj-text align="center">
           Oscar de Médiathèque
         </mj-text>
       </mj-column>

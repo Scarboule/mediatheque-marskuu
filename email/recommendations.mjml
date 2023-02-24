@@ -1,4 +1,10 @@
 <mjml>
+  <mj-head>
+      <mj-attributes>
+      <mj-all font-family="Segoe UI"></mj-all>
+      <mj-text font-size="16px" color="#000"></mj-text>
+    </mj-attributes>
+  </mj-head>
   <mj-body background-color="white" width="600px">
     <mj-section>
       <mj-column>
@@ -20,7 +26,7 @@ Bonjour [nom de l'utilisateur],
         </mj-text>
         <mj-text>
 
-Nous espérons que vous passez une excellente semaine! Nous sommes ravis de vous présenter notre sélection hebdomadaire de recommandations pour vous.
+Nous espérons que vous passez une excellente semaine! Nous sommes ravis de vous présenter <b>notre sélection hebdomadaire de recommandations</b> pour vous.
         </mj-text>
         <mj-text>
 

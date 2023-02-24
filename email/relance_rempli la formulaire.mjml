@@ -1,4 +1,10 @@
 <mjml>
+  <mj-head>
+      <mj-attributes>
+      <mj-all font-family="Segoe UI"></mj-all>
+      <mj-text font-size="16px" color="#000"></mj-text>
+    </mj-attributes>
+  </mj-head>
     <mj-body background-color="white">
         <mj-section>
             <mj-column>
@@ -15,9 +21,9 @@
                 </mj-text>
                     <mj-text line-height="20px" font-size="16px" color="#333333" padding="10px 25px">
                      Bonjour {prénom} <br /><br />
-                     Nous espérons que vous allez bien. Nous avons remarqué que vous avez visité notre site d'Ebook récemment, mais que vous n'avez pas rempli le formulaire d'inscription pour accéder à nos services. Nous souhaiterions vous rappeler que nous proposons une grande sélection de livres électroniques de qualité supérieure à des prix compétitifs, ainsi qu'un service clientèle exceptionnel.<br /><br />
-                     Nous comprenons que vous pourriez être occupé(e) ou avoir des questions avant de vous inscrire. Si tel est le cas, n'hésitez pas à nous contacter à tout moment. Nous sommes là pour vous aider et répondre à toutes vos questions.<br /><br />
-                     Si vous avez simplement oublié de remplir le formulaire, nous vous encourageons vivement à le faire dès maintenant en cliquant sur le button ci-dessous. Cela ne prend que quelques minutes, et vous pourrez commencer à profiter de notre sélection d'Ebooks immédiatement.<br /><br />
+                     Nous espérons que vous allez bien. Nous avons remarqué que vous avez visité notre site d'Ebook récemment, mais que <b>vous n'avez pas rempli le formulaire d'inscription</b> pour accéder à nos services. Nous souhaiterions vous rappeler que nous proposons une <b>grande sélection de livres électroniques</b> de qualité supérieure à des prix compétitifs, ainsi qu'un service client exceptionnel.<br /><br />
+                     Nous comprenons que vous pourriez être occupé(e) ou avoir des questions avant de vous inscrire. Si tel est le cas, n'hésitez pas à <b>nous contacter</b> à tout moment. Nous sommes là pour vous aider et répondre à toutes vos questions.<br /><br />
+                     Si vous avez simplement oublié de remplir le formulaire, nous vous encourageons vivement à le faire dès maintenant en cliquant sur le bouton ci-dessous. Cela ne prend que quelques minutes, et vous pourrez <b>commencer à profiter de notre sélection d'Ebooks immédiatement.</b><br /><br />
                     
                 </mj-text>
                 <mj-button
@@ -25,9 +31,11 @@
                 >
                    Formulaire d'inscription
                 </mj-button>
-                <mj-text  line-height="20px" font-size="16px" color="#333333" padding="10px 25px">
-                   Nous vous remercions pour votre intérêt envers notre entreprise et espérons avoir l'opportunité de vous servir bientôt. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter.<br /><br />
-                    Cordialement,<br />
+                <mj-text line-height="20px" font-size="16px" color="#333333" padding="10px 25px">
+                   Nous vous remercions pour votre intérêt envers notre entreprise et espérons avoir l'opportunité de vous servir bientôt. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter.
+                </mj-text>
+                <mj-text line-height="20px" align="center">
+                    Cordialement <br /><br />
                     L'équipe médiathèque
                 </mj-text>
             </mj-column>
