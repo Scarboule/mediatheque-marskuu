@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .content-text {
+        margin-bottom: 20px;
+      }
+    </mj-style>
+    <mj-title>Nouveau service d'abonnement</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-size="16px" color="#3E166D"></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper padding-top="20px" padding-bottom="20px" background-color="#f2f2f2">
+      <mj-section>
+        <mj-column>
+            <mj-text font-size="24px" font-weight="bold" color="#6C37AE">Ne manquez rien de nos ressources !</mj-text>
+          <mj-text font-size="24px" font-weight="bold" color="#6C37AE">Cher(e) {{prenom}},</mj-text>
+          <mj-text mj-class="content-text" font-size="18px">Nous sommes ravis de vous annoncer le lancement de notre nouveau service d'abonnement à la médiathèque de la ville de {{city}}.</mj-text>
+          <mj-text mj-class="content-text" font-size="18px">Avec cet abonnement, vous pourrez emprunter plus de livres, de CD, de DVD et d'autres documents, ainsi que bénéficier d'un accès en ligne à des milliers de ressources numériques.</mj-text>
+          <mj-text mj-class="content-text" font-size="18px">Nous espérons que vous apprécierez ce nouveau service et que vous continuerez à soutenir la médiathèque.</mj-text>
+          <mj-text mj-class="content-text" font-size="18px">N'hésitez pas à nous contacter pour plus d'informations ou pour vous abonner dès maintenant !</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#6C37AE">
+        <mj-column>
+          <mj-text font-size="24px" font-weight="bold" color="#fff">Inscrivez-vous dès maintenant !</mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-button href="https://mediatheque-marskuu.vercel.app/?utm_source=newsletter&utm_medium=email&utm_campaign=abonnement" font-size="18px" background-color="#9152E2" color="#fff" font-weight="bold" padding="10px 20px" border-radius="5px">S'abonner</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#000" padding="20px 0"></mj-divider>
+          <mj-text font-size="14px" color="#000" align="center">Vous recevez cet email car vous êtes inscrit à la médiathèque de la ville de {{city}}.</mj-text>
+          <mj-text font-size="14px" color="#000" align="center">Pour ne plus recevoir nos communications, <a href="https://mediatheque-marskuu.vercel.app/?utm_source=newsletter&utm_medium=email&utm_campaign=desabonnement">désabonnez-vous ici</a>.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
